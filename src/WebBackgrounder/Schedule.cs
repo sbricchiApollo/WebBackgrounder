@@ -15,7 +15,7 @@ namespace WebBackgrounder
         {
             if (job == null)
             {
-                throw new ArgumentNullException("job");
+                throw new ArgumentNullException(nameof(job));
             }
             Job = job;
             _nowThunk = nowThunk;
